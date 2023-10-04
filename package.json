@@ -1,0 +1,23 @@
+{
+  "name": "issue-tracker",
+  "module": "server.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot server.ts",
+    "start": "bun run server.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@elysiajs/html": "^0.7.0",
+    "@elysiajs/static": "^0.7.1",
+    "@kitajs/html": "^3.0.0",
+    "@kitajs/ts-html-plugin": "^1.1.1",
+    "chart.js": "^4.4.0",
+    "elysia": "^0.7.15"
+  }
+}
